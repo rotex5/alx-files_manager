@@ -27,5 +27,4 @@ class AuthController {
     return res.status(204).end();
   }
 }
-
-module.exports = AuthController;
+export default AuthController;
